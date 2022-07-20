@@ -22,12 +22,12 @@
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Ansel</a>
+                <a href="#" class="nav__logo">Cody</a>
 
                 <div class="nav__menu">
                     <ul class="nav__list">
                         <li class="nav__items">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="bx bx-home-alt"></i>
                             </a>
                         </li>
@@ -57,13 +57,24 @@
                         </li>
                     </ul>
                 </div>
+
+                <!-- Theme change button -->
+                <i class="bx bx-moon change theme" id="theme-button"></i>
             </nav>
         </header>
 
         <!--=============== MAIN ===============-->
         <main class="main">
             <!--=============== HOME ===============-->
-            <section class="home section" id="home"></section>
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Cody Estrella</h1>
+                        <h3 class="home__education">Frontend Developer</h3>
+                    </div>
+                </div>
+            </section>
 
             <!--=============== ABOUT ===============-->
             <section class="about section" id="about"></section>
