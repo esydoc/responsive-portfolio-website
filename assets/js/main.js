@@ -1,5 +1,4 @@
 /*=============== CHANGE BACKGROUND HEADER ===============*/
-
 function scrollHeader() {
     const header = document.getElementById('header');
     // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
@@ -10,7 +9,6 @@ function scrollHeader() {
 window.addEventListener('scroll', scrollHeader);
 
 /*=============== SERVICES MODAL ===============*/
-
 const modalViews = document.querySelectorAll('.services__modal'),
     modalBtns = document.querySelectorAll('.services__button'),
     modalClose = document.querySelectorAll('.services__modal-close');
