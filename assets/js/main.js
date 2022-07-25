@@ -99,5 +99,31 @@ function scrollActive() {
 window.addEventListener('scroll', scrollActive);
 
 /*=============== LIGHT DARK THEME ===============*/
+const themeButton = document.getElementById('theme-button');
+const lightTheme = 'light-theme';
+const iconTheme = 'bx-sun';
+
+// Previous user-selected theme
+const selectedTheme = localStorage.getItem('selected-theme');
+const selectedIcon = localStorage.getItem('selected-icon');
+
+// Obtain the current theme by validating the light-theme class
+const getCurrentTheme = () => (document.body.classList.contains(lightTheme) ? 'dark' : 'light');
+const getCurrentIcon = () =>
+    themeButton.classList.contains(iconTheme) ? 'bx bx-moon' : 'bx bx-sun';
+
+// Validate if the user previously selected a theme
+if (selectedTheme) {
+    // If so, check if the previously selected them was light
+    document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](lightTheme);
+    themeButton.classList[selectedIcon === 'bx bx-moon' ? 'add' : 'remove'](iconTheme);
+}
+
+// Activate or deactivate the theme manually by clicking on the button
+themeButton.addEventListener('click', () => {
+    // Add or remove the light/icon theme
+    document.body.classList.toggle(lightTheme);
+    themeButton.classList.toggle(iconTheme);
+});
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
