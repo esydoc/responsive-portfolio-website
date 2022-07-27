@@ -1,13 +1,10 @@
-# 🔥 Responsive Portfolio Website Ansel
+# Tutorial-based project
+
 ## [Watch it on youtube](https://youtu.be/oy8dSsK57Ps)
-### 🔥 Responsive Portfolio Website
 
-- Responsive Portfolio Website Using HTML CSS & JavaScript
-- Smooth scrolling in each section.
-- Includes a dark and light mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+### Responsive Portfolio Website
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
-
-![preview img](/preview.png)
+-   HTML CSS & JavaScript.
+-   Smooth scrolling.
+-   Dark/light mode.
+-   Responsive.
