@@ -1,6 +1,6 @@
-# Tutorial-based project
+# Tutorial-Based Project
 
-## [Watch it on youtube](https://youtu.be/oy8dSsK57Ps)
+## [Watch YouTube Video](https://youtu.be/oy8dSsK57Ps)
 
 ### Responsive Portfolio Website
 
